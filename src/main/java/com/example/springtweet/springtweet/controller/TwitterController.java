@@ -7,6 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import twitter4j.*;
 
+import java.io.File;
+
 @RestController
 @RequestMapping(value = "/api/1.0/twitter")
 public class TwitterController {
@@ -27,13 +29,17 @@ public class TwitterController {
     @ResponseStatus(HttpStatus.OK)
     private ResponseEntity postTweet(@RequestBody String tweetMessage) throws MyException, CustomException {
         try {
-            twitter.updateStatus(tweetMessage);
+            Twitter twitter = new TwitterFactory().getInstance();
+            StatusUpdate status = new StatusUpdate(tweetMessage);
+            status.setMedia(new File("/Users/gokul.ravichandran/Desktop/sc.png"));
+            Status updateStatus = twitter.updateStatus(status);
         } catch (TwitterException e) {
             e.printStackTrace();
             throw new CustomException();
         }
         throw new MyException();
     }
+
 }
 
 
