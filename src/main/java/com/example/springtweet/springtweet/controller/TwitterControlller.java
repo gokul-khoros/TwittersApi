@@ -23,11 +23,13 @@ public class TwitterControlller {
     private String getTimeLine(@RequestBody String tweetMessage) {
         try {
             twitter.updateStatus(tweetMessage);
+            String statement = "Statement Successfully posted : " + tweetMessage;
+            return statement;
         } catch (TwitterException e) {
             e.printStackTrace();
+            String statement = "Statement is not posted";
+            return statement;
         }
-        String statement = "Statement Successfully posted : " + tweetMessage;
-        return statement;
     }
 
 }
