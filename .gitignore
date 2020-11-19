@@ -47,6 +47,9 @@ build/
 *.tar.gz
 *.rar
 *.xml
+mvnw
+mvnw.cmd
+.mvn
 
 target
 
