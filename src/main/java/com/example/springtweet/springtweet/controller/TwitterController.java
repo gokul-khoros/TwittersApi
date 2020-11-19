@@ -1,16 +1,20 @@
 package com.example.springtweet.springtweet.controller;
 
+import com.example.springtweet.springtweet.exceptionHandler.CustomException;
+import com.example.springtweet.springtweet.exceptionHandler.MyException;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import twitter4j.*;
 
 @RestController
 @RequestMapping(value = "/api/1.0/twitter")
-public class TwitterControlller {
+public class TwitterController {
 
     Twitter twitter = TwitterFactory.getSingleton();
 
     @GetMapping(value = "/timeline")
-    public ResponseList<Status> getTweets() {
+    public ResponseList<Status> getTimeLine() {
         try {
             return twitter.getHomeTimeline();
         } catch (TwitterException e) {
@@ -20,16 +24,16 @@ public class TwitterControlller {
     }
 
     @PostMapping(value = "/tweet")
-    private String getTimeLine(@RequestBody String tweetMessage) {
+    @ResponseStatus(HttpStatus.OK)
+    private ResponseEntity postTweet(@RequestBody String tweetMessage) throws MyException, CustomException {
         try {
             twitter.updateStatus(tweetMessage);
-            String statement = "Statement Successfully posted : " + tweetMessage;
-            return statement;
         } catch (TwitterException e) {
             e.printStackTrace();
-            String statement = "Statement is not posted";
-            return statement;
+            throw new CustomException();
         }
+        throw new MyException();
     }
-
 }
+
+
