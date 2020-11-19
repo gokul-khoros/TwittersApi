@@ -1,7 +1,7 @@
 package com.example.springtweet.springtweet.controller;
 
 import com.example.springtweet.springtweet.exceptionHandler.CustomException;
-import com.example.springtweet.springtweet.exceptionHandler.MyException;
+import com.example.springtweet.springtweet.exceptionHandler.SuccessMessage;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import twitter4j.*;
@@ -25,7 +25,7 @@ public class TwitterController {
     }
 
     @PostMapping(value = "/tweet")
-    private ResponseEntity postTweet(@RequestBody String tweetMessage) throws MyException, CustomException {
+    private ResponseEntity postTweet(@RequestBody String tweetMessage) throws SuccessMessage, CustomException {
 
         try {
             Twitter twitter = new TwitterFactory().getInstance();
@@ -37,7 +37,7 @@ public class TwitterController {
             for (MediaEntity m : mediaEntities) {
                 url = m.getURL();
             }
-            throw new MyException(url);
+            throw new SuccessMessage(url);
         } catch (TwitterException e) {
             e.printStackTrace();
             throw new CustomException();

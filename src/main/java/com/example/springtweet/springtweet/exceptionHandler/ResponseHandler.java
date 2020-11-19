@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ControllerAdvice
 class HandlerMsg {
 
-    @ExceptionHandler(value = MyException.class)
+    @ExceptionHandler(value = SuccessMessage.class)
     @ResponseBody
-    public ResponseMessage successMessage(MyException e) {
+    public ResponseMessage successMessage(SuccessMessage e) {
         ResponseMessage ex = new ResponseMessage();
         ex.setUrl(e.getUrl());
         ex.setStatus(e.getStatus());

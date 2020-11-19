@@ -7,7 +7,7 @@ import twitter4j.MediaEntity;
 
 @JsonInclude(content = JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class MyException extends Exception {
+public class SuccessMessage extends Exception {
 
     int status = 200;
 
@@ -40,7 +40,7 @@ public class MyException extends Exception {
         return url;
     }
 
-    public MyException(String url) {
+    public SuccessMessage(String url) {
         this.url = url;
     }
 
