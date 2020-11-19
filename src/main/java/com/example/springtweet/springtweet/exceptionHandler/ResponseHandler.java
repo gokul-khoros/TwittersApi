@@ -1,6 +1,5 @@
 package com.example.springtweet.springtweet.exceptionHandler;
 
-import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -12,6 +11,7 @@ class HandlerMsg {
     @ResponseBody
     public ResponseMessage successMessage(MyException e) {
         ResponseMessage ex = new ResponseMessage();
+        ex.setUrl(e.getUrl());
         ex.setStatus(e.getStatus());
         ex.setMessage(e.getMessage());
         return ex;

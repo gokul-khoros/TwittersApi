@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.*;
 import twitter4j.*;
 
 import java.io.File;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @RestController
 @RequestMapping(value = "/api/1.0/twitter")
@@ -26,18 +28,20 @@ public class TwitterController {
     }
 
     @PostMapping(value = "/tweet")
-    @ResponseStatus(HttpStatus.OK)
     private ResponseEntity postTweet(@RequestBody String tweetMessage) throws MyException, CustomException {
+
         try {
             Twitter twitter = new TwitterFactory().getInstance();
             StatusUpdate status = new StatusUpdate(tweetMessage);
             status.setMedia(new File("/Users/gokul.ravichandran/Desktop/sc.png"));
-            Status updateStatus = twitter.updateStatus(status);
+            Status updatesStatus = twitter.updateStatus(status);
+            String url ;
+            url = updatesStatus.getText();
+            throw new MyException(url);
         } catch (TwitterException e) {
             e.printStackTrace();
             throw new CustomException();
         }
-        throw new MyException();
     }
 
 }
