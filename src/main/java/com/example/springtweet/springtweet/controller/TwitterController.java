@@ -14,6 +14,7 @@ import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 import twitter4j.StatusUpdate;
+import twitter4j.ResponseList;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -25,12 +26,11 @@ public class TwitterController {
     Twitter twitter = TwitterFactory.getSingleton();
 
     @GetMapping(value = "/timeline")
-    public Object getTimeLine() {
+    public ResponseList<Status> getTimeLine() throws TwitterException {
         try {
             return twitter.getHomeTimeline();
         } catch (TwitterException e) {
-            e.getStackTrace();
-            return e;
+            throw e;
         }
     }
 
