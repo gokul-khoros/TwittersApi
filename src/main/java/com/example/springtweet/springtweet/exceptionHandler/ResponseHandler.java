@@ -1,11 +1,12 @@
 package com.example.springtweet.springtweet.exceptionHandler;
 
+
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @ControllerAdvice
-class HandlerMsg {
+public class ResponseHandler {
 
     @ExceptionHandler(value = SuccessMessage.class)
     @ResponseBody

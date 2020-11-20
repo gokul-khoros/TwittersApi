@@ -4,9 +4,10 @@ import com.example.springtweet.springtweet.exceptionHandler.CustomException;
 import com.example.springtweet.springtweet.exceptionHandler.SuccessMessage;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import twitter4j.*;
 
-import java.io.File;
+import java.io.*;
 
 @RestController
 @RequestMapping(value = "/api/1.0/twitter")
@@ -19,26 +20,22 @@ public class TwitterController {
         try {
             return twitter.getHomeTimeline();
         } catch (TwitterException e) {
-            e.printStackTrace();
+            e.getStackTrace();
+            return (ResponseList<Status>) e;
         }
-        return null;
     }
 
     @PostMapping(value = "/tweet")
-    private ResponseEntity postTweet(@RequestBody String tweetMessage) throws SuccessMessage, CustomException {
-
+    private ResponseEntity postTweet(@RequestParam(value = "file") MultipartFile file, @RequestParam String tweetMessage) throws CustomException, SuccessMessage {
         try {
+            InputStream inputStream = file.getInputStream();
             Twitter twitter = new TwitterFactory().getInstance();
-            StatusUpdate status = new StatusUpdate(tweetMessage);
-            status.setMedia(new File("/Users/gokul.ravichandran/Desktop/sc.png"));
-            Status updatesStatus = twitter.updateStatus(status);
-            String url = null;
-            MediaEntity[] mediaEntities = updatesStatus.getMediaEntities();
-            for (MediaEntity m : mediaEntities) {
-                url = m.getURL();
-            }
+            StatusUpdate statusUpdate = new StatusUpdate(tweetMessage);
+            statusUpdate.media(tweetMessage, inputStream);
+            Status updatesStatus = twitter.updateStatus(statusUpdate);
+            String url = "https://twitter.com/" + updatesStatus.getUser().getScreenName() + "/status/" + updatesStatus.getId();
             throw new SuccessMessage(url);
-        } catch (TwitterException e) {
+        } catch (TwitterException | IOException e) {
             e.printStackTrace();
             throw new CustomException();
         }

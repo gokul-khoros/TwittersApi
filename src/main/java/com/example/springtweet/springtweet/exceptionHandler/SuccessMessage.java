@@ -3,7 +3,6 @@ package com.example.springtweet.springtweet.exceptionHandler;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import twitter4j.MediaEntity;
 
 @JsonInclude(content = JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
