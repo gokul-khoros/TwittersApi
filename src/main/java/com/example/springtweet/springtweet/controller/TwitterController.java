@@ -18,6 +18,8 @@ import twitter4j.ResponseList;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 @RequestMapping(value = "/api/1.0/twitter")
@@ -26,16 +28,22 @@ public class TwitterController {
     Twitter twitter = TwitterFactory.getSingleton();
 
     @GetMapping(value = "/timeline")
-    public ResponseList<Status> getTimeLine() throws TwitterException {
+    public List<String> getTimeLine() throws TwitterException {
         try {
-            return twitter.getHomeTimeline();
+            List<String> a = new ArrayList<>();
+            List<Status> s=twitter.getHomeTimeline();
+            for(Status sa : s){
+                a.add(sa.getText());
+            }
+            return a;
         } catch (TwitterException e) {
             throw e;
         }
+
     }
 
     @PostMapping(value = "/tweet")
-    private ResponseEntity postTweet(@RequestParam(value = "file") MultipartFile file, @RequestParam String tweetMessage) throws CustomException, SuccessMessage {
+    public String postTweet(@RequestParam(value = "file") MultipartFile file, @RequestParam String tweetMessage) throws CustomException, SuccessMessage {
         try {
             InputStream inputStream = file.getInputStream();
             Twitter twitter = new TwitterFactory().getInstance();
