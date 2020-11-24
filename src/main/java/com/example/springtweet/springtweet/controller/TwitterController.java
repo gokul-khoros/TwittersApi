@@ -18,8 +18,6 @@ import twitter4j.ResponseList;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
 
 @RestController
 @RequestMapping(value = "/api/1.0/twitter")
@@ -28,27 +26,34 @@ public class TwitterController {
     Twitter twitter = TwitterFactory.getSingleton();
 
     @GetMapping(value = "/timeline")
-    public List<String> getTimeLine() throws TwitterException {
+    public ResponseList<Status> getTimeLine() throws TwitterException {
         try {
-            List<String> a = new ArrayList<>();
-            List<Status> s=twitter.getHomeTimeline();
-            for(Status sa : s){
-                a.add(sa.getText());
-            }
-            return a;
+            return twitter.getHomeTimeline();
         } catch (TwitterException e) {
             throw e;
         }
-
     }
 
     @PostMapping(value = "/tweet")
+    public ResponseList<Status> postTweet(@RequestParam String tweetMessage) throws CustomException, SuccessMessage {
+        try {
+            Status status = twitter.updateStatus(tweetMessage);
+            String url = "https://twitter.com/" + status.getUser().getScreenName() + "/status/" + status.getId();
+            throw new SuccessMessage(url);
+        } catch (TwitterException e) {
+            e.printStackTrace();
+            throw new CustomException();
+        }
+    }
+
+    //post method for uploading image and tweet
+/*    @PostMapping(value = "/tweet")
     public String postTweet(@RequestParam(value = "file") MultipartFile file, @RequestParam String tweetMessage) throws CustomException, SuccessMessage {
         try {
             InputStream inputStream = file.getInputStream();
             Twitter twitter = new TwitterFactory().getInstance();
             StatusUpdate statusUpdate = new StatusUpdate(tweetMessage);
-            statusUpdate.media(tweetMessage, inputStream);
+            statusUpdate.media( " ", inputStream);
             Status updatesStatus = twitter.updateStatus(statusUpdate);
             String url = "https://twitter.com/" + updatesStatus.getUser().getScreenName() + "/status/" + updatesStatus.getId();
             throw new SuccessMessage(url);
@@ -57,5 +62,7 @@ public class TwitterController {
             throw new CustomException();
         }
     }
+
+ */
 
 }
