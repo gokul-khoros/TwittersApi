@@ -9,10 +9,12 @@ import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 import twitter4j.*;
 
+import javax.xml.ws.Response;
 import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.anyString;
+import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
@@ -491,8 +493,9 @@ public class TwitterControllerTest {
                 return 0;
             }
         };
-        when(twitter.updateStatus(anyString())).thenReturn(status1);
-        ResponseList<Status> responseList = twitterController.postTweet("hello");
+        Status status = mock(Status.class);
+        when(twitter.updateStatus(anyString())).thenReturn(status);
+        Response responseList = twitterController.postTweet("hello");
     }
 
 }
