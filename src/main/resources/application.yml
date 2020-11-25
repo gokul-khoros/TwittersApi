@@ -1,0 +1,5 @@
+demo:
+  consumerKey: #Your ConsumerKey
+  consumerSecret: #Your ConsumerSecret
+  accessToken: #Your AccessToken
+  accessTokenSecret: #Your AccessTokenSecret
