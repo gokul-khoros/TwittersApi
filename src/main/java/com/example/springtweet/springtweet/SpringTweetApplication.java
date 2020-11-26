@@ -22,4 +22,5 @@ public class SpringTweetApplication {
         SpringApplication.run(SpringTweetApplication.class, args);
         logger.warn("stopped");
     }
+
 }

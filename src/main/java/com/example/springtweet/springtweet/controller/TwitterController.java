@@ -46,6 +46,7 @@ public class TwitterController {
                 .setOAuthAccessTokenSecret(accessTokenSecret);
         TwitterFactory tf = new TwitterFactory(cb.build());
         Twitter twitter = tf.getInstance();
+        logger.trace("Configuring connection");
         return twitter;
     }
 
