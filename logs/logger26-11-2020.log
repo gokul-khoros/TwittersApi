@@ -1,0 +1,34 @@
+[INFO] 2020-11-26 17:14:05,176 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-11-26 17:14:05,396 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[TRACE] 2020-11-26 17:14:07,266 com.example.springtweet.springtweet.controller.TwitterController getTwitterInstance - Configuring connection
+[INFO] 2020-11-26 17:15:11,865 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-11-26 17:15:12,183 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[TRACE] 2020-11-26 17:15:14,514 com.example.springtweet.springtweet.controller.TwitterController getTwitterInstance - Configuring connection
+[INFO] 2020-11-26 17:15:48,233 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-11-26 17:15:48,519 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-11-26 17:16:22,804 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-11-26 17:16:23,052 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[TRACE] 2020-11-26 17:16:25,305 com.example.springtweet.springtweet.controller.TwitterController getTwitterInstance - Configuring connection
+[INFO] 2020-11-26 17:16:50,553 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-11-26 17:16:50,861 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[TRACE] 2020-11-26 17:16:52,869 com.example.springtweet.springtweet.controller.TwitterController getTwitterInstance - Configuring connection
+[INFO] 2020-11-26 17:25:07,752 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-11-26 17:25:08,046 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[TRACE] 2020-11-26 17:25:10,577 com.example.springtweet.springtweet.controller.TwitterController getTwitterInstance - Configuring connection
+[INFO] 2020-11-26 17:26:15,215 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-11-26 17:26:15,460 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[TRACE] 2020-11-26 17:26:17,706 com.example.springtweet.springtweet.controller.TwitterController getTwitterInstance - Configuring connection
+[INFO] 2020-11-26 17:26:52,586 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-11-26 17:26:52,840 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[TRACE] 2020-11-26 17:26:55,091 com.example.springtweet.springtweet.controller.TwitterController getTwitterInstance - Configuring connection
+[WARN] 2020-11-26 17:26:55,940 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[INFO] 2020-11-26 17:28:05,522 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-11-26 17:28:05,838 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-11-26 17:28:32,214 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-11-26 17:28:32,511 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[TRACE] 2020-11-26 17:28:34,879 com.example.springtweet.springtweet.controller.TwitterController getTwitterInstance - Configuring connection
+[WARN] 2020-11-26 17:28:35,678 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[INFO] 2020-11-26 17:36:11,717 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-11-26 17:36:11,991 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[TRACE] 2020-11-26 17:36:14,299 com.example.springtweet.springtweet.controller.TwitterController getTwitterInstance - Configuring connection
+[WARN] 2020-11-26 17:36:15,338 com.example.springtweet.springtweet.SpringTweetApplication main - stopped

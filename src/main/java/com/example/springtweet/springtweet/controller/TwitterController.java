@@ -1,8 +1,10 @@
 package com.example.springtweet.springtweet.controller;
 
+import com.example.springtweet.springtweet.Services.TwitterService;
 import com.example.springtweet.springtweet.exceptionHandler.CustomException;
 import com.example.springtweet.springtweet.exceptionHandler.SuccessMessage;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,13 +16,10 @@ import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
-import twitter4j.StatusUpdate;
 import twitter4j.ResponseList;
 import twitter4j.conf.ConfigurationBuilder;
 
 import javax.xml.ws.Response;
-import java.io.IOException;
-import java.io.InputStream;
 
 @RestController
 @RequestMapping(value = "/api/1.0/twitter")
@@ -37,6 +36,8 @@ public class TwitterController {
     @Value("${demo.accessTokenSecret}")
     String accessTokenSecret;
 
+    TwitterService twitterService = new TwitterService();
+
     public Twitter getTwitterInstance() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
@@ -50,49 +51,22 @@ public class TwitterController {
         return twitter;
     }
 
+    Twitter twitter = getTwitterInstance();
+
     @GetMapping(value = "/timeline")
     public ResponseList<Status> getTimeLine() throws TwitterException {
-        try {
-            Twitter twitter = getTwitterInstance();
-            logger.trace("gethomefeed");
-            return twitter.getHomeTimeline();
-        } catch (TwitterException e) {
-            logger.error(e);
-            throw e;
-        }
+        return twitterService.getTimeLine(twitter);
     }
 
     @PostMapping(value = "/tweet")
-    public Response postTweet(@RequestParam String tweetMessage) throws CustomException, SuccessMessage {
-        try {
-            Twitter twitter = getTwitterInstance();
-            Status status = twitter.updateStatus(tweetMessage);
-            String url = "https://twitter.com/" + status.getUser().getScreenName() + "/status/" + status.getId();
-            throw new SuccessMessage(url);
-        } catch (TwitterException e) {
-            logger.error(e);
-            e.printStackTrace();
-            throw new CustomException();
-        }
+    public Response postTweet(@RequestParam String tweetMessage) throws CustomException {
+        return twitterService.postTweet(tweetMessage, twitter);
     }
 
     //post method for uploading image and tweet
     @PostMapping(value = "/tweetImage")
     public String postImageTweet(@RequestParam(value = "file") MultipartFile file, @RequestParam String tweetMessage) throws CustomException, SuccessMessage {
-        try {
-            InputStream inputStream = file.getInputStream();
-            Twitter twitter = new TwitterFactory().getInstance();
-            StatusUpdate statusUpdate = new StatusUpdate(tweetMessage);
-            statusUpdate.media(" ", inputStream);
-            Status updatesStatus = twitter.updateStatus(statusUpdate);
-            String url = "https://twitter.com/" + updatesStatus.getUser().getScreenName() + "/status/" + updatesStatus.getId();
-            throw new SuccessMessage(url);
-        } catch (TwitterException | IOException e) {
-            logger.error(e);
-            e.printStackTrace();
-            throw new CustomException();
-        }
+        return twitterService.postImageTweet(file, tweetMessage, twitter);
     }
-
 
 }
