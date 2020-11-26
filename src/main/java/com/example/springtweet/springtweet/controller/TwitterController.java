@@ -1,8 +1,8 @@
 package com.example.springtweet.springtweet.controller;
 
-
 import com.example.springtweet.springtweet.exceptionHandler.CustomException;
 import com.example.springtweet.springtweet.exceptionHandler.SuccessMessage;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -26,6 +26,7 @@ import java.io.InputStream;
 @RequestMapping(value = "/api/1.0/twitter")
 public class TwitterController {
 
+    static Logger logger = Logger.getLogger(TwitterController.class.getName());
 
     @Value("${demo.consumerKey}")
     String consumerKey;
@@ -35,7 +36,6 @@ public class TwitterController {
     String accessToken;
     @Value("${demo.accessTokenSecret}")
     String accessTokenSecret;
-
 
     public Twitter getTwitterInstance() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
@@ -49,14 +49,14 @@ public class TwitterController {
         return twitter;
     }
 
-
     @GetMapping(value = "/timeline")
     public ResponseList<Status> getTimeLine() throws TwitterException {
         try {
             Twitter twitter = getTwitterInstance();
-            twitter = getTwitterInstance();
+            logger.trace("gethomefeed");
             return twitter.getHomeTimeline();
         } catch (TwitterException e) {
+            logger.error(e);
             throw e;
         }
     }
@@ -69,6 +69,7 @@ public class TwitterController {
             String url = "https://twitter.com/" + status.getUser().getScreenName() + "/status/" + status.getId();
             throw new SuccessMessage(url);
         } catch (TwitterException e) {
+            logger.error(e);
             e.printStackTrace();
             throw new CustomException();
         }
@@ -76,7 +77,7 @@ public class TwitterController {
 
     //post method for uploading image and tweet
     @PostMapping(value = "/tweetImage")
-    public String postTweet(@RequestParam(value = "file") MultipartFile file, @RequestParam String tweetMessage) throws CustomException, SuccessMessage {
+    public String postImageTweet(@RequestParam(value = "file") MultipartFile file, @RequestParam String tweetMessage) throws CustomException, SuccessMessage {
         try {
             InputStream inputStream = file.getInputStream();
             Twitter twitter = new TwitterFactory().getInstance();
@@ -86,6 +87,7 @@ public class TwitterController {
             String url = "https://twitter.com/" + updatesStatus.getUser().getScreenName() + "/status/" + updatesStatus.getId();
             throw new SuccessMessage(url);
         } catch (TwitterException | IOException e) {
+            logger.error(e);
             e.printStackTrace();
             throw new CustomException();
         }

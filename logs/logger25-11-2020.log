@@ -1,0 +1,19 @@
+[ERROR] 2020-11-25 22:35:26,641 com.example.springtweet.springtweet.controller.TwitterController postTweet - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate.
+code - 187
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=2fc5b7cb or
+	http://www.google.co.jp/search?q=0f59b95f
+TwitterException{exceptionCode=[2fc5b7cb-0f59b95f], statusCode=403, message=Status is a duplicate., code=187, retryAfter=-1, rateLimitStatus=null, version=4.0.6}
+[INFO] 2020-11-25 22:36:12,882 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-11-25 22:36:13,082 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-11-25 22:36:15,643 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[ERROR] 2020-11-25 22:36:40,371 com.example.springtweet.springtweet.controller.TwitterController postTweet - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate.
+code - 187
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=2fc5b7cb or
+	http://www.google.co.jp/search?q=0f59b95f
+TwitterException{exceptionCode=[2fc5b7cb-0f59b95f], statusCode=403, message=Status is a duplicate., code=187, retryAfter=-1, rateLimitStatus=null, version=4.0.6}
