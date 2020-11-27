@@ -41,7 +41,6 @@ public class DaoTwitter {
         }
     }
 
-
     public String postImageTweet(MultipartFile file, String tweetMessage, Twitter twitter) throws CustomException {
         try {
             InputStream inputStream = file.getInputStream();
@@ -56,4 +55,5 @@ public class DaoTwitter {
             throw new CustomException();
         }
     }
+
 }
