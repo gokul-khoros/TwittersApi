@@ -2,9 +2,9 @@ package com.example.springtweet.springtweet.Dao;
 
 import com.example.springtweet.springtweet.exceptionHandler.CustomException;
 import com.example.springtweet.springtweet.exceptionHandler.SuccessMessage;
+import com.example.springtweet.springtweet.model.TwitterDetails;
 import org.apache.log4j.Logger;
 import org.springframework.web.multipart.MultipartFile;
-import twitter4j.ResponseList;
 import twitter4j.Twitter;
 import twitter4j.Status;
 import twitter4j.TwitterException;
@@ -13,16 +13,32 @@ import twitter4j.StatusUpdate;
 import javax.xml.ws.Response;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class DaoTwitter {
 
     Logger logger = Logger.getLogger(DaoTwitter.class.getName());
 
-    public ResponseList<Status> getTimeLine(Twitter twitter) throws TwitterException {
+    public List<TwitterDetails> getTimeLine(Twitter twitter) throws TwitterException {
         try {
             logger.trace("gethomefeed");
-            return twitter.getHomeTimeline();
+
+            List<TwitterDetails> getTimeline = new ArrayList<>();
+            List<Status> getHomeTimeLine = twitter.getHomeTimeline();
+            for(Status sa : getHomeTimeLine)
+            {
+                TwitterDetails twitterInformation = new TwitterDetails();
+                twitterInformation.setMessage(sa.getText());
+                twitterInformation.setCreatedAt(sa.getCreatedAt());
+                twitterInformation.setUsername(sa.getUser().getName());
+                twitterInformation.setProfileImageUrl(sa.getUser().getProfileImageURL());
+                twitterInformation.setScreenName(sa.getUser().getScreenName());
+                getTimeline.add(twitterInformation);
+
+            }
+            return getTimeline;
         } catch (TwitterException e) {
             logger.error(e);
             throw e;

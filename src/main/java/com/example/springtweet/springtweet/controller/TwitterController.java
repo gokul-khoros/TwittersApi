@@ -2,7 +2,7 @@ package com.example.springtweet.springtweet.controller;
 
 import com.example.springtweet.springtweet.Services.TwitterService;
 import com.example.springtweet.springtweet.exceptionHandler.CustomException;
-import com.example.springtweet.springtweet.exceptionHandler.SuccessMessage;
+import com.example.springtweet.springtweet.model.TwitterDetails;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -11,20 +11,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.multipart.MultipartFile;
-import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
-import twitter4j.ResponseList;
 import twitter4j.conf.ConfigurationBuilder;
 
 import javax.xml.ws.Response;
+import java.util.List;
 
 @RestController
 @RequestMapping(value = "/api/1.0/twitter")
 public class TwitterController {
 
     static Logger logger = Logger.getLogger(TwitterController.class.getName());
+
 
     @Value("${demo.consumerKey}")
     String consumerKey;
@@ -53,7 +53,7 @@ public class TwitterController {
     TwitterService twitterService = new TwitterService();
 
     @GetMapping(value = "/timeline")
-    public ResponseList<Status> getTimeLine() throws TwitterException {
+    public List<TwitterDetails> getTimeLine() throws TwitterException {
         Twitter twitter = getTwitterInstance();
         return twitterService.getTimeLine(twitter);
     }

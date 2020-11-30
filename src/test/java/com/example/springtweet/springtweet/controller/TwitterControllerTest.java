@@ -2,6 +2,7 @@ package com.example.springtweet.springtweet.controller;
 
 import com.example.springtweet.springtweet.exceptionHandler.CustomException;
 import com.example.springtweet.springtweet.exceptionHandler.SuccessMessage;
+import com.example.springtweet.springtweet.model.TwitterDetails;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -11,6 +12,7 @@ import twitter4j.*;
 
 import javax.xml.ws.Response;
 import java.util.Date;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.anyString;
@@ -30,7 +32,7 @@ public class TwitterControllerTest {
     public void getTimeLineTest() throws TwitterException {
         Status response = (Status) twitter.getHomeTimeline();
         when(twitter.getHomeTimeline()).thenReturn((ResponseList<Status>) response);
-        ResponseList<Status> getTimeLineMsg = twitterController.getTimeLine();
+        List<TwitterDetails> getTimeLineMsg = twitterController.getTimeLine();
         assertEquals(response, getTimeLineMsg);
     }
 
