@@ -35,7 +35,6 @@ public class TwitterController {
     @Value("${demo.accessTokenSecret}")
     String accessTokenSecret;
 
-    TwitterService twitterService = new TwitterService();
 
     public Twitter getTwitterInstance() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
@@ -50,21 +49,25 @@ public class TwitterController {
         return twitter;
     }
 
-    Twitter twitter = getTwitterInstance();
+
+    TwitterService twitterService = new TwitterService();
 
     @GetMapping(value = "/timeline")
     public ResponseList<Status> getTimeLine() throws TwitterException {
+        Twitter twitter = getTwitterInstance();
         return twitterService.getTimeLine(twitter);
     }
 
     @PostMapping(value = "/tweet")
     public Response postTweet(@RequestParam String tweetMessage) throws CustomException {
+        Twitter twitter = getTwitterInstance();
         return twitterService.postTweet(tweetMessage, twitter);
     }
 
     //post method for uploading image and tweet
     @PostMapping(value = "/tweetImage")
-    public String postImageTweet(@RequestParam(value = "file") MultipartFile file, @RequestParam String tweetMessage) throws CustomException, SuccessMessage {
+    public String postImageTweet(@RequestParam(value = "file") MultipartFile file, @RequestParam String tweetMessage) throws CustomException {
+        Twitter twitter = getTwitterInstance();
         return twitterService.postImageTweet(file, tweetMessage, twitter);
     }
 
