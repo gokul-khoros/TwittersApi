@@ -3,6 +3,9 @@ package com.example.springtweet.springtweet.Services;
 import com.example.springtweet.springtweet.Dao.DaoTwitter;
 import com.example.springtweet.springtweet.exceptionHandler.CustomException;
 import com.example.springtweet.springtweet.model.TwitterDetails;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
@@ -15,9 +18,11 @@ import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+@Service
 public class TwitterService {
 
-    DaoTwitter daoTwitter = new DaoTwitter();
+    @Autowired
+    DaoTwitter daoTwitter;
 
     public List<TwitterDetails> getTimeLine(Twitter twitter) throws TwitterException {
         return daoTwitter.getTimeLine(twitter);

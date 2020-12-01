@@ -4,6 +4,7 @@ import com.example.springtweet.springtweet.Services.TwitterService;
 import com.example.springtweet.springtweet.exceptionHandler.CustomException;
 import com.example.springtweet.springtweet.model.TwitterDetails;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,8 +24,10 @@ import java.util.List;
 @RequestMapping(value = "/api/1.0/twitter")
 public class TwitterController {
 
-    static Logger logger = Logger.getLogger(TwitterController.class.getName());
+    @Autowired
+    TwitterService twitterService;
 
+    static Logger logger = Logger.getLogger(TwitterController.class.getName());
 
     @Value("${demo.consumerKey}")
     String consumerKey;
@@ -50,7 +53,6 @@ public class TwitterController {
     }
 
 
-    TwitterService twitterService = new TwitterService();
 
     @GetMapping(value = "/timeline")
     public List<TwitterDetails> getTimeLine() throws TwitterException {

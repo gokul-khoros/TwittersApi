@@ -4,6 +4,8 @@ import com.example.springtweet.springtweet.exceptionHandler.CustomException;
 import com.example.springtweet.springtweet.exceptionHandler.SuccessMessage;
 import com.example.springtweet.springtweet.model.TwitterDetails;
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import twitter4j.Twitter;
 import twitter4j.Status;
@@ -16,6 +18,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class DaoTwitter {
 
     Logger logger = Logger.getLogger(DaoTwitter.class.getName());
