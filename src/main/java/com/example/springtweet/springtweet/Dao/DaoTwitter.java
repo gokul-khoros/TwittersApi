@@ -77,7 +77,7 @@ public class DaoTwitter {
             List<TwitterDetails> getTimeline = new ArrayList<>();
             List<Status> getHomeTimeLine = twitter.getHomeTimeline();
             for (Status sa : getHomeTimeLine) {
-                TwitterDetails twitterInformation = new TwitterDetails(sa.getText(),sa.getCreatedAt(),sa.getUser().getName(),sa.getUser().getProfileImageURL(),sa.getUser().getScreenName());
+                TwitterDetails twitterInformation = new TwitterDetails(sa.getText(),sa.getUser().getName(),sa.getUser().getProfileImageURL(),sa.getUser().getScreenName(),sa.getCreatedAt());
                 getTimeline.add(twitterInformation);
             }
             return getTimeline;
