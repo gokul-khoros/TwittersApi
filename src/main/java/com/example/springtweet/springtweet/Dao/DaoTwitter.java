@@ -16,7 +16,6 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class DaoTwitter {
 
     Logger logger = Logger.getLogger(DaoTwitter.class.getName());
@@ -24,11 +23,9 @@ public class DaoTwitter {
     public List<TwitterDetails> getTimeLine(Twitter twitter) throws TwitterException {
         try {
             logger.trace("gethomefeed");
-
             List<TwitterDetails> getTimeline = new ArrayList<>();
             List<Status> getHomeTimeLine = twitter.getHomeTimeline();
-            for(Status sa : getHomeTimeLine)
-            {
+            for (Status sa : getHomeTimeLine) {
                 TwitterDetails twitterInformation = new TwitterDetails();
                 twitterInformation.setMessage(sa.getText());
                 twitterInformation.setCreatedAt(sa.getCreatedAt());
@@ -36,7 +33,6 @@ public class DaoTwitter {
                 twitterInformation.setProfileImageUrl(sa.getUser().getProfileImageURL());
                 twitterInformation.setScreenName(sa.getUser().getScreenName());
                 getTimeline.add(twitterInformation);
-
             }
             return getTimeline;
         } catch (TwitterException e) {
@@ -72,4 +68,19 @@ public class DaoTwitter {
         }
     }
 
+    public List<TwitterDetails> getTwitterLineWithFilter(Twitter twitter) throws TwitterException {
+        try {
+            logger.trace("gethomefeed");
+            List<TwitterDetails> getTimeline = new ArrayList<>();
+            List<Status> getHomeTimeLine = twitter.getHomeTimeline();
+            for (Status sa : getHomeTimeLine) {
+                TwitterDetails twitterInformation = new TwitterDetails(sa.getText(),sa.getCreatedAt(),sa.getUser().getName(),sa.getUser().getProfileImageURL(),sa.getUser().getScreenName());
+                getTimeline.add(twitterInformation);
+            }
+            return getTimeline;
+        } catch (TwitterException e) {
+            logger.error(e);
+            throw e;
+        }
+    }
 }

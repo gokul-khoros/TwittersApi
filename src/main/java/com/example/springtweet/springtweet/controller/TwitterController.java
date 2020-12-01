@@ -58,6 +58,12 @@ public class TwitterController {
         return twitterService.getTimeLine(twitter);
     }
 
+    @GetMapping(value = "/timeline/filter")
+    public List<TwitterDetails> getTimeLineWithFilter() throws TwitterException {
+        Twitter twitter = getTwitterInstance();
+        return twitterService.getTwitterLineWithFilter(twitter);
+    }
+
     @PostMapping(value = "/tweet")
     public Response postTweet(@RequestParam String tweetMessage) throws CustomException {
         Twitter twitter = getTwitterInstance();

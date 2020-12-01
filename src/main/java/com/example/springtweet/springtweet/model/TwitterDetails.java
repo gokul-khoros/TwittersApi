@@ -13,6 +13,14 @@ public class TwitterDetails {
     public TwitterDetails() {
     }
 
+    public TwitterDetails(String text, Date createdAt, String name, String profileImageURL, String screenName) {
+        this.message = text;
+        this.username = name;
+        this.screenName = screenName;
+        this.profileImageUrl = profileImageURL;
+        this.createdAt = createdAt;
+    }
+
     public String getMessage() {
         return message;
     }

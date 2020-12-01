@@ -1,0 +1,10 @@
+[INFO] 2020-12-01 12:32:40,808 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-01 12:32:41,024 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-01 12:32:46,470 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-01 12:33:13,690 com.example.springtweet.springtweet.controller.TwitterController getTwitterInstance - Configuring connection
+[TRACE] 2020-12-01 12:33:13,691 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
+[INFO] 2020-12-01 12:38:18,640 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-01 12:38:18,849 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-01 12:38:21,383 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-01 12:38:27,143 com.example.springtweet.springtweet.controller.TwitterController getTwitterInstance - Configuring connection
+[TRACE] 2020-12-01 12:38:27,143 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
