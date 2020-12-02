@@ -40,7 +40,6 @@ public class TwitterController {
     @Value("${demo.accessTokenSecret}")
     String accessTokenSecret;
 
-
     public Twitter getTwitterInstance() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
@@ -54,17 +53,19 @@ public class TwitterController {
         return twitter;
     }
 
-    @Cacheable(cacheNames = "timeline cache")
+    @Cacheable(value = "timeline cache")
     @GetMapping(value = "/timeline")
     public List<TwitterDetails> getTimeLine() throws TwitterException {
-        logger.trace("from second hit Caching will give the result");
         Twitter twitter = getTwitterInstance();
+        logger.trace("Will return from Cache for 1 min");
         return twitterService.getTimeLine(twitter);
     }
 
+    @Cacheable(value = "timelineFilter cache")
     @GetMapping(value = "/timeline/filter")
     public List<TwitterDetails> getTimeLineWithFilter() throws TwitterException {
         Twitter twitter = getTwitterInstance();
+        logger.trace("twitter Filter - Will return from cache for 1 min");
         return twitterService.getTwitterLineWithFilter(twitter);
     }
 
