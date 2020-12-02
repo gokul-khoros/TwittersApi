@@ -1,11 +1,13 @@
 package com.example.springtweet.springtweet.controller;
 
+import com.example.springtweet.springtweet.Dao.DaoTwitter;
 import com.example.springtweet.springtweet.Services.TwitterService;
 import com.example.springtweet.springtweet.exceptionHandler.CustomException;
 import com.example.springtweet.springtweet.model.TwitterDetails;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,7 +29,7 @@ public class TwitterController {
     @Autowired
     TwitterService twitterService;
 
-    static Logger logger = Logger.getLogger(TwitterController.class.getName());
+    Logger logger = Logger.getLogger(DaoTwitter.class.getName());
 
     @Value("${demo.consumerKey}")
     String consumerKey;
@@ -52,10 +54,10 @@ public class TwitterController {
         return twitter;
     }
 
-
-
+    @Cacheable(cacheNames = "timeline cache")
     @GetMapping(value = "/timeline")
     public List<TwitterDetails> getTimeLine() throws TwitterException {
+        logger.trace("from second hit Caching will give the result");
         Twitter twitter = getTwitterInstance();
         return twitterService.getTimeLine(twitter);
     }

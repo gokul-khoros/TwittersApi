@@ -1,0 +1,25 @@
+[INFO] 2020-12-02 14:51:28,431 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-02 14:51:28,630 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-02 14:51:31,116 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-02 14:51:34,061 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - checking for cache
+[TRACE] 2020-12-02 14:51:34,089 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-02 14:51:34,089 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
+[TRACE] 2020-12-02 14:52:10,904 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-02 14:52:10,904 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-02 14:52:31,553 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-02 14:52:31,553 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[INFO] 2020-12-02 14:53:00,739 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-02 14:53:00,951 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-02 14:53:03,725 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-02 14:53:09,848 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - checking for cache
+[TRACE] 2020-12-02 14:53:09,876 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-02 14:53:09,876 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
+[INFO] 2020-12-02 14:56:13,984 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-02 14:56:14,185 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-02 14:56:17,049 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[INFO] 2020-12-02 14:56:47,529 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-02 14:56:47,731 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-02 14:56:50,506 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-02 14:56:52,607 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - from second hit Caching will give the result
+[TRACE] 2020-12-02 14:56:52,627 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-02 14:56:52,628 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
