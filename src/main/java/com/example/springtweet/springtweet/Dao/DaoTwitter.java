@@ -2,6 +2,7 @@ package com.example.springtweet.springtweet.Dao;
 
 import com.example.springtweet.springtweet.exceptionHandler.CustomException;
 import com.example.springtweet.springtweet.exceptionHandler.SuccessMessage;
+import com.example.springtweet.springtweet.model.TweetMessage;
 import com.example.springtweet.springtweet.model.TwitterDetails;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
@@ -44,12 +45,12 @@ public class DaoTwitter {
         }
     }
 
-    public Response postTweet(String tweetMessage, Twitter twitter) throws CustomException {
+    public Response postTweet(TweetMessage tweetMessage, Twitter twitter) throws CustomException, SuccessMessage {
         try {
-            Status status = twitter.updateStatus(tweetMessage);
+            Status status = twitter.updateStatus(tweetMessage.getMsg());
             String url = "https://twitter.com/" + status.getUser().getScreenName() + "/status/" + status.getId();
             throw new SuccessMessage(url);
-        } catch (TwitterException | SuccessMessage e) {
+        } catch (TwitterException e) {
             logger.error(e);
             e.printStackTrace();
             throw new CustomException();

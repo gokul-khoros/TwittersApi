@@ -2,6 +2,8 @@ package com.example.springtweet.springtweet.Services;
 
 import com.example.springtweet.springtweet.Dao.DaoTwitter;
 import com.example.springtweet.springtweet.exceptionHandler.CustomException;
+import com.example.springtweet.springtweet.exceptionHandler.SuccessMessage;
+import com.example.springtweet.springtweet.model.TweetMessage;
 import com.example.springtweet.springtweet.model.TwitterDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -28,7 +30,7 @@ public class TwitterService {
         return daoTwitter.getTimeLine(twitter);
     }
 
-    public Response postTweet(String tweetMessage, Twitter twitter) throws CustomException {
+    public Response postTweet(TweetMessage tweetMessage, Twitter twitter) throws CustomException, SuccessMessage {
         return daoTwitter.postTweet(tweetMessage, twitter);
     }
 

@@ -1,0 +1,406 @@
+[INFO] 2020-12-04 13:14:36,446 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 13:14:36,678 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 13:14:40,927 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 13:37:09,556 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 13:37:09,557 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 13:37:09,557 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 13:37:09,556 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 13:37:09,557 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 13:37:09,557 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[INFO] 2020-12-04 13:42:17,100 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 13:42:17,668 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 13:42:21,361 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 13:42:30,445 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 13:42:30,445 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 13:42:30,445 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 13:46:13,139 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 13:46:13,140 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 13:46:13,140 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 13:50:38,394 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 13:50:38,395 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 13:50:38,396 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 13:50:38,395 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 13:50:38,396 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 13:50:38,396 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 13:53:22,565 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 13:53:22,566 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 13:53:22,567 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 13:57:00,389 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 13:57:00,389 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 13:57:00,389 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 13:57:00,413 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 13:57:00,413 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 13:57:00,414 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 13:58:06,370 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 13:58:06,370 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 13:58:06,370 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 13:58:06,396 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 13:58:06,396 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 13:58:06,396 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[INFO] 2020-12-04 14:14:08,242 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 14:14:08,452 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 14:14:11,909 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[INFO] 2020-12-04 14:16:21,780 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 14:16:21,980 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 14:16:24,713 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 14:16:28,441 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 14:16:28,441 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 14:16:28,441 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 14:22:14,415 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 14:22:14,415 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 14:22:14,416 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:02:45,023 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:02:45,023 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:02:45,023 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:04:40,357 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:04:40,357 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:04:40,357 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:08:10,484 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:08:10,486 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:08:10,486 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:10:24,238 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:10:24,238 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:10:24,238 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:11:43,401 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:11:43,402 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:11:43,402 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:13:06,753 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:13:06,753 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:13:06,753 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:14:17,510 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:14:17,512 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:14:17,512 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:15:44,221 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:15:44,222 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:15:44,223 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:18:32,478 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:18:32,479 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:18:32,480 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:31:15,827 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:31:15,829 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:31:15,829 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:42:59,394 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:42:59,395 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:42:59,395 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:48:57,858 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:48:57,858 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:48:57,858 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:50:33,746 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:50:33,747 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:50:33,747 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:52:21,542 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:52:21,542 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:52:21,542 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:54:04,575 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:54:04,576 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:54:04,577 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:56:12,647 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:56:12,648 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:56:12,648 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 15:59:14,001 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 15:59:14,001 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 15:59:14,002 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:01:45,156 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:01:45,157 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:01:45,157 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:06:40,808 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:06:40,809 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:06:40,809 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:09:45,940 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:09:45,941 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:09:45,941 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:12:04,231 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:12:04,232 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:12:04,232 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:18:20,445 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:18:20,446 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:18:20,446 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:19:31,396 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:19:31,397 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:19:31,397 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:20:59,795 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:20:59,795 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:20:59,795 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[INFO] 2020-12-04 16:24:04,827 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 16:24:05,034 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 16:24:09,142 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 16:24:10,674 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:24:10,675 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:24:10,675 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:25:38,886 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:25:38,886 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:25:38,886 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:26:56,851 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:26:56,852 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:26:56,852 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:28:25,082 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:28:25,082 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:28:25,083 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:37:17,023 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:37:17,024 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:37:17,024 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:41:34,052 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:41:34,053 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:41:34,053 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:42:49,198 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:42:49,199 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:42:49,199 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:46:51,047 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:46:51,047 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:46:51,048 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:48:22,605 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:48:22,605 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:48:22,606 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:50:08,062 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:50:08,063 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:50:08,064 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:52:34,014 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:52:34,015 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:52:34,016 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 16:56:48,830 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 16:56:48,830 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 16:56:48,830 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 17:03:23,890 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:03:23,891 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 17:03:23,892 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 17:06:36,358 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:06:36,359 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 17:06:36,359 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 17:08:41,882 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:08:41,883 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 17:08:41,883 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 17:10:33,828 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:10:33,828 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 17:10:33,828 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 17:11:16,328 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:11:16,821 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - com.example.springtweet.springtweet.exceptionHandler.SuccessMessage: Tweet posted
+[INFO] 2020-12-04 17:11:52,693 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:11:52,909 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:11:55,947 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 17:12:09,320 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:12:10,333 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - com.example.springtweet.springtweet.exceptionHandler.SuccessMessage: Tweet posted
+[TRACE] 2020-12-04 17:16:07,192 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:16:07,752 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - com.example.springtweet.springtweet.exceptionHandler.SuccessMessage: Tweet posted
+[INFO] 2020-12-04 17:17:41,730 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:17:41,974 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:17:44,658 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 17:17:58,179 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:17:59,010 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate.
+code - 187
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=2fc5b7cb or
+	http://www.google.co.jp/search?q=0f59b95f
+TwitterException{exceptionCode=[2fc5b7cb-0f59b95f], statusCode=403, message=Status is a duplicate., code=187, retryAfter=-1, rateLimitStatus=null, version=4.0.6}
+[TRACE] 2020-12-04 17:18:13,135 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:18:13,552 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate.
+code - 187
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=2fc5b7cb or
+	http://www.google.co.jp/search?q=0f59b95f
+TwitterException{exceptionCode=[2fc5b7cb-0f59b95f], statusCode=403, message=Status is a duplicate., code=187, retryAfter=-1, rateLimitStatus=null, version=4.0.6}
+[INFO] 2020-12-04 17:19:33,158 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:19:33,476 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:19:37,461 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 17:19:59,025 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:19:59,977 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate.
+code - 187
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=2fc5b7cb or
+	http://www.google.co.jp/search?q=0f59b95f
+TwitterException{exceptionCode=[2fc5b7cb-0f59b95f], statusCode=403, message=Status is a duplicate., code=187, retryAfter=-1, rateLimitStatus=null, version=4.0.6}
+[INFO] 2020-12-04 17:22:27,930 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:22:28,188 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:22:31,448 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 17:22:35,744 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:22:36,742 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate.
+code - 187
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=2fc5b7cb or
+	http://www.google.co.jp/search?q=0f59b95f
+TwitterException{exceptionCode=[2fc5b7cb-0f59b95f], statusCode=403, message=Status is a duplicate., code=187, retryAfter=-1, rateLimitStatus=null, version=4.0.6}
+[TRACE] 2020-12-04 17:23:18,548 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:23:19,005 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - com.example.springtweet.springtweet.exceptionHandler.SuccessMessage: Tweet posted
+[TRACE] 2020-12-04 17:23:24,948 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:23:25,450 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - com.example.springtweet.springtweet.exceptionHandler.SuccessMessage: Tweet posted
+[TRACE] 2020-12-04 17:24:08,703 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:24:11,968 com.example.springtweet.springtweet.Dao.DaoTwitter postImageTweet - com.example.springtweet.springtweet.exceptionHandler.SuccessMessage: Tweet posted
+[TRACE] 2020-12-04 17:24:17,433 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:24:20,764 com.example.springtweet.springtweet.Dao.DaoTwitter postImageTweet - com.example.springtweet.springtweet.exceptionHandler.SuccessMessage: Tweet posted
+[TRACE] 2020-12-04 17:24:30,491 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:24:30,491 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - Will return from Cache for 1 min
+[TRACE] 2020-12-04 17:24:30,492 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
+[TRACE] 2020-12-04 17:24:34,773 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:24:34,773 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 17:24:34,774 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 17:25:13,096 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:25:13,680 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - com.example.springtweet.springtweet.exceptionHandler.SuccessMessage: Tweet posted
+[INFO] 2020-12-04 17:25:50,735 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:25:50,941 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:25:53,551 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 17:26:05,172 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[INFO] 2020-12-04 17:26:37,302 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:26:37,564 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:26:54,311 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 17:27:19,520 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:27:19,520 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:27:20,347 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate.
+code - 187
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=2fc5b7cb or
+	http://www.google.co.jp/search?q=0f59b95f
+TwitterException{exceptionCode=[2fc5b7cb-0f59b95f], statusCode=403, message=Status is a duplicate., code=187, retryAfter=-1, rateLimitStatus=null, version=4.0.6}
+[INFO] 2020-12-04 17:27:23,217 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:27:23,523 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:27:27,010 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 17:28:02,435 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:28:18,276 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate.
+code - 187
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=2fc5b7cb or
+	http://www.google.co.jp/search?q=0f59b95f
+TwitterException{exceptionCode=[2fc5b7cb-0f59b95f], statusCode=403, message=Status is a duplicate., code=187, retryAfter=-1, rateLimitStatus=null, version=4.0.6}
+[INFO] 2020-12-04 17:31:00,919 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:31:01,140 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:31:04,141 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 17:31:07,337 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:31:08,202 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate.
+code - 187
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=2fc5b7cb or
+	http://www.google.co.jp/search?q=0f59b95f
+TwitterException{exceptionCode=[2fc5b7cb-0f59b95f], statusCode=403, message=Status is a duplicate., code=187, retryAfter=-1, rateLimitStatus=null, version=4.0.6}
+[TRACE] 2020-12-04 17:31:46,807 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:32:19,868 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:32:19,869 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 17:32:19,869 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 17:32:23,845 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:34:32,450 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:34:32,451 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 17:34:32,451 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 17:34:40,058 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:35:43,834 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:35:43,835 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 17:35:43,837 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 17:35:52,054 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[INFO] 2020-12-04 17:38:07,789 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:38:08,206 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:38:11,095 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 17:38:29,947 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:38:29,948 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 17:38:29,948 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 17:38:37,525 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:39:32,865 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:39:33,384 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:39:33,384 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLineWithFilter - twitter Filter - Will return from cache for 1 min
+[TRACE] 2020-12-04 17:39:33,385 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterLineWithFilter - gethomefeed
+[TRACE] 2020-12-04 17:40:06,323 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:40:06,324 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - Will return from Cache for 1 min
+[TRACE] 2020-12-04 17:40:06,325 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
+[TRACE] 2020-12-04 17:41:02,884 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:41:15,849 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:41:16,360 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:41:16,360 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - Will return from Cache for 1 min
+[TRACE] 2020-12-04 17:41:16,361 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
+[TRACE] 2020-12-04 17:42:45,279 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:42:45,279 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - Will return from Cache for 1 min
+[TRACE] 2020-12-04 17:42:45,280 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
+[TRACE] 2020-12-04 17:44:28,996 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:44:28,997 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - Will return from Cache for 1 min
+[TRACE] 2020-12-04 17:44:28,997 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
+[TRACE] 2020-12-04 17:44:36,184 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:45:08,816 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:45:47,861 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:45:47,861 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - Will return from Cache for 1 min
+[TRACE] 2020-12-04 17:45:47,861 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
+[TRACE] 2020-12-04 17:45:53,487 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:47:21,657 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:47:21,657 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - Will return from Cache for 1 min
+[TRACE] 2020-12-04 17:47:21,657 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
+[TRACE] 2020-12-04 17:47:28,713 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:48:39,216 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:49:03,236 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:49:03,236 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - Will return from Cache for 1 min
+[TRACE] 2020-12-04 17:49:03,236 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
+[TRACE] 2020-12-04 17:49:43,542 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[INFO] 2020-12-04 17:51:39,041 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:51:39,304 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:51:43,354 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 17:51:49,889 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[INFO] 2020-12-04 17:52:37,062 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:52:37,469 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:52:41,675 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 17:55:17,216 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 17:55:17,216 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:55:18,485 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate.
+code - 187
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=2fc5b7cb or
+	http://www.google.co.jp/search?q=0f59b95f
+TwitterException{exceptionCode=[2fc5b7cb-0f59b95f], statusCode=403, message=Status is a duplicate., code=187, retryAfter=-1, rateLimitStatus=null, version=4.0.6}
+[INFO] 2020-12-04 17:55:22,624 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:55:22,984 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:55:27,009 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 17:56:23,961 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:56:25,067 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate.
+code - 187
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=2fc5b7cb or
+	http://www.google.co.jp/search?q=0f59b95f
+TwitterException{exceptionCode=[2fc5b7cb-0f59b95f], statusCode=403, message=Status is a duplicate., code=187, retryAfter=-1, rateLimitStatus=null, version=4.0.6}
+[INFO] 2020-12-04 17:56:30,163 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:56:30,516 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:56:34,136 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 17:58:05,982 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[ERROR] 2020-12-04 17:58:06,948 com.example.springtweet.springtweet.Dao.DaoTwitter postTweet - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate.
+code - 187
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=2fc5b7cb or
+	http://www.google.co.jp/search?q=0f59b95f
+TwitterException{exceptionCode=[2fc5b7cb-0f59b95f], statusCode=403, message=Status is a duplicate., code=187, retryAfter=-1, rateLimitStatus=null, version=4.0.6}
+[INFO] 2020-12-04 17:58:11,734 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:58:12,043 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:58:15,315 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[INFO] 2020-12-04 17:58:43,128 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:58:43,469 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:58:47,188 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[INFO] 2020-12-04 17:59:00,787 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 17:59:01,135 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 17:59:04,490 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 17:59:53,501 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[INFO] 2020-12-04 18:00:45,532 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[INFO] 2020-12-04 18:00:45,788 com.example.springtweet.springtweet.SpringTweetApplication main - APP started
+[WARN] 2020-12-04 18:00:49,013 com.example.springtweet.springtweet.SpringTweetApplication main - stopped
+[TRACE] 2020-12-04 18:01:01,831 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 18:01:01,832 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - Will return from Cache for 1 min
+[TRACE] 2020-12-04 18:01:01,832 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
+[TRACE] 2020-12-04 18:02:08,860 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 18:02:08,860 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - Will return from Cache for 1 min
+[TRACE] 2020-12-04 18:02:08,860 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
+[TRACE] 2020-12-04 18:02:16,378 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 18:03:26,691 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 18:03:26,692 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - Will return from Cache for 1 min
+[TRACE] 2020-12-04 18:03:26,692 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed
+[TRACE] 2020-12-04 18:03:31,976 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 18:05:08,949 com.example.springtweet.springtweet.Dao.DaoTwitter getTwitterInstance - Configuring connection
+[TRACE] 2020-12-04 18:05:08,950 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - Will return from Cache for 1 min
+[TRACE] 2020-12-04 18:05:08,951 com.example.springtweet.springtweet.Dao.DaoTwitter getTimeLine - gethomefeed

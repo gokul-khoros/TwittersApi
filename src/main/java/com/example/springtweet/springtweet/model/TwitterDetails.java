@@ -15,8 +15,8 @@ public class TwitterDetails {
 
     String message;
     String username;
-    String screenName;
     String profileImageUrl;
+    String screenName;
     Date createdAt;
 
 }

@@ -3,16 +3,14 @@ package com.example.springtweet.springtweet.controller;
 import com.example.springtweet.springtweet.Dao.DaoTwitter;
 import com.example.springtweet.springtweet.Services.TwitterService;
 import com.example.springtweet.springtweet.exceptionHandler.CustomException;
+import com.example.springtweet.springtweet.exceptionHandler.SuccessMessage;
+import com.example.springtweet.springtweet.model.TweetMessage;
 import com.example.springtweet.springtweet.model.TwitterDetails;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.annotation.Cacheable;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
@@ -70,7 +68,7 @@ public class TwitterController {
     }
 
     @PostMapping(value = "/tweet")
-    public Response postTweet(@RequestParam String tweetMessage) throws CustomException {
+    public Response postTweet(@RequestBody TweetMessage tweetMessage) throws CustomException, SuccessMessage {
         Twitter twitter = getTwitterInstance();
         return twitterService.postTweet(tweetMessage, twitter);
     }
